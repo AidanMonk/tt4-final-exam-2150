@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\RecipeApi\\RecipeApi.csproj": {}
+    "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\recipeapi\\RecipeApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\RecipeApi\\RecipeApi.csproj": {
+    "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\recipeapi\\RecipeApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\RecipeApi\\RecipeApi.csproj",
+        "projectUniqueName": "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\recipeapi\\RecipeApi.csproj",
         "projectName": "RecipeApi",
-        "projectPath": "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\RecipeApi\\RecipeApi.csproj",
+        "projectPath": "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\recipeapi\\RecipeApi.csproj",
         "packagesPath": "C:\\Users\\Aidan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\RecipeApi\\obj\\",
+        "outputPath": "C:\\Users\\Aidan\\OneDrive\\Desktop\\final\\backend\\recipeapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
