@@ -1,0 +1,27 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore ASP.NET temporary files
+**/Properties/launchSettings.json
+
+# Ignore .env files (if any)
+*.env
+
+# Ignore Docker-related files if not needed
+Dockerfile.*
+
+# Ignore IDE-related files
+.vscode/
+.idea/
+*.sw?
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
