@@ -8,7 +8,7 @@ namespace RecipeApi.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Ingredients { get; set; } // Storing ingredients as a string (you could also normalize this)
+        public string Ingredients { get; set; } 
         public string Instructions { get; set; }
         public TimeSpan PrepTime { get; set; }
     }
